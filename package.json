@@ -1,0 +1,27 @@
+{
+  "name": "fgsljscnpj",
+  "version": "1.0.0",
+  "description": "Componente para validar o CNPJ alfanumérico e gerar os dígitos verificadores",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fgsl/fgsljscnpj.git"
+  },
+  "keywords": [
+    "cnpj",
+    "receita",
+    "federal",
+    "validação",
+    "alfanumérico"
+  ],
+  "author": "Flávio Gomes da Silva Lisboa",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/fgsl/fgsljscnpj/issues"
+  },
+  "homepage": "https://github.com/fgsl/fgsljscnpj#readme"
+}

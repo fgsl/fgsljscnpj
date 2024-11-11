@@ -1,16 +1,10 @@
-# fgsljscnpj
+/** 
+* Teste de componente para validar CNPJ
+* Baseada em https://www.serpro.gov.br/menu/noticias/noticias-2024/cnpj-alfanumerico
+* Flávio Gomes da Silva Lisboa <flavio.lisboa@fgsl.eti.br>
+* https://github.com/fgsl/fgslpycnpj
+**/
 
-Componente Javascript para validar o CNPJ alfanumérico e gerar os dígitos verificadores
-
-## Instalação
-
-```shell
-npm install fgsljscnpj
-```
-
-## Exemplo de uso
-
-```shell
 const CNPJ = require("fgsljscnpj");
 const cnpj = new CNPJ();
 
@@ -27,18 +21,3 @@ if (cnpj.isValid(cnpjComDV)){
 } else {
     console.log("O cnpj " + cnpjComDV + " não é válido" );
 }
-```
-
-## Testes
-
-Na pasta `test`, execute o seguinte comando para instalar o módulo fgsljscnpj:
-
-```shell
-npm link fgsljscnpj
-```
-
-Então execute o arquivo `script.js` assim:
-
-```shell
-node script.js
-```
